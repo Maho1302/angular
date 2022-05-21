@@ -1,0 +1,6 @@
+<p *ngIf="comment">
+  {{comment.id}}
+  {{comment.name}}
+
+  <a [routerLink]="['comment-details',comment.id]">details</a>
+</p>
